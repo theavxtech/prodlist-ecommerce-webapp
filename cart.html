@@ -1,0 +1,44 @@
+
+<html >
+<head>
+    
+    <title>PRODLIST</title>
+    <link rel="icon" href="shopping-cart-outline-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="drop.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html"><img src="Logo.svg" alt="Logo"></a>
+        </div>
+        <ul>
+            <li><a href="mencloth.html">MEN'S CLOTHING</a></li>
+            <li><a href="womencloth.html">WOMEN'S CLOTHING</a></li>
+            <li><a href="acc.html">ACCESSORIES</a></li>
+            <li><a href="elec.html">ELECTRONICS</a></li>
+        </ul>
+    </div>
+
+    <div class="Shoppingcart"><h2>Shopping Cart contains : </h2></div>
+
+    <div class="containercart">
+        <div class="cartItems" id="cartItems">
+           
+        </div>
+    </div>
+    <div class="end">
+        <button onclick="clearCart()">CLEAR CART</button><br>
+        
+
+    </div>
+    <div class="endtotal">
+        <button onclick="checkout()">CHECKOUT</button><br>
+    </div>
+
+    <script src="cart.js"></script>
+    
+</body>
+</html>

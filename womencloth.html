@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>PRODLIST</title>
+    <link rel="icon" href="shopping-cart-outline-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="drop.css">
+    <link rel="stylesheet" href="data.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html"><img src="Logo.svg" alt="Logo"></a>
+        </div>
+        <ul>
+            <li><a href="mencloth.html">MEN'S CLOTHING</a></li>
+            <li><a href="womencloth.html">WOMEN'S CLOTHING</a></li>
+            <li><a href="acc.html">ACCESSORIES</a></li>
+            <li><a href="elec.html">ELECTRONICS</a></li>
+        </ul>
+    </div>
+
+    <div class="filbar">
+        <ul>
+            <li class="dropbox">
+                <a href="#" class="dropbtn">SORT</a>
+                <div class="dropdown">
+                    <a href="#" onclick="sortprice()">Price:Low to High</a>
+                    <a href="#" onclick="sortpricex()">Price:High to Low</a>
+                    <a href="#" onclick="sortratingx()">Rating:High to Low</a>
+                    <a href="#" onclick="sortrating()">Rating:Low to High</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="cart">
+            <li><a href="cart.html" class="viewCartLink">VIEW CART</a></li>
+        </ul>
+    </div>
+    
+
+    <!-- this mencloth code-->
+    <div class="container">
+        <div class="products" id="products">
+            <!-- Products will be dynamically added here -->
+
+        </div>
+    </div>
+
+
+
+    <script src="sortwomencloth.js"></script>
+    <script src="womencloth.js"></script>
+    
+
+
+</body>
+
+</html>
